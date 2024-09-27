@@ -110,7 +110,7 @@ body {
 }
 .heading-3 {
   display: flex;
-  justify-content: space-between;
+
   height: 150px;
 }
 .heading-3 h1 {
