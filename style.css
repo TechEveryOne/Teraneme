@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Space+Grotesk:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #d8d4d4;
+}
+.container {
+  padding-bottom: 400px;
+}
+.giris {
+  width: 100%;
+  height: 90vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: max-content max-content max-content;
+  padding-left: 40px;
+}
+.right-image {
+  justify-self: end;
+  align-self: start;
+}
+.nine-teen h1 {
+  font-size: 200px;
+  font-weight: 400;
+  height: fit-content;
+  display: block;
+  line-height: 0.8;
+  color: #b20606;
+  font-family: "Cinzel Decorative", serif;
+}
+.years h1 {
+  font-size: 200px;
+  color: #b20606;
+  font-weight: 400;
+  font-family: "Dancing Script", cursive;
+  margin-left: 60px;
+}
+.first-page {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  margin-bottom: 80px;
+}
+.header-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-text h1 {
+  box-shadow: 0 4px 2px -2px #000;
+}
+.text-and-image {
+  width: 100%;
+  height: fit-content;
+  padding-inline: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.text-and-image img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.text-and-image p {
+  font-size: 18px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+.second-page {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 20px;
+}
+.text-center {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+.text-center p {
+  color: #b20606;
+  font-family: "Space Grotesk", sans-serif;
+  line-height: 1.1;
+}
+
+.big-image {
+  width: 100%;
+  position: relative;
+}
+
+.big-image img {
+  width: 100%;
+  object-fit: cover;
+}
+.thirdth-page {
+  margin-top: 80px;
+  padding-inline: 30px;
+}
+.heading-3 {
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+}
+.heading-3 h1 {
+  min-width: fit-content;
+  font-size: 32px;
+  font-weight: 500;
+  font-family: "Dancing Script", cursive;
+}
+.heading-3 img {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  top: -60px;
+}
+.subtext p {
+  font-size: 24px;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.fourth-page {
+  margin-top: 80px;
+  padding-inline: 30px;
+}
+.heading-image {
+  margin-bottom: 40px;
+}
+.heading-image img {
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid #000;
+}
+
+.image {
+  column-count: 2;
+  /* padding-inline: 8px; */
+}
+.image img {
+  width: 100%;
+}
+.image img:nth-child(7) {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+.last-page {
+  margin-top: 220px;
+}
+.last-heading h1 {
+  text-align: center;
+  font-size: 100px;
+  font-family: "Dancing Script", cursive;
+  color: #b20606;
+}
+.textsec p {
+  font-size: 54px;
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  letter-spacing: 0.5px;
+  line-height: 1.4;
+  margin-top: 100px;
+}
