@@ -110,8 +110,9 @@ body {
 }
 .heading-3 {
   display: flex;
-
-  height: 150px;
+  flex-direction: column;
+  margin-bottom: 6rem;
+  align-items: center;
 }
 .heading-3 h1 {
   min-width: fit-content;
@@ -119,14 +120,10 @@ body {
   font-weight: 500;
   font-family: "Dancing Script", cursive;
   position: relative;
-  top: 3rem;
 }
 .heading-3 img {
-  width: 150px;
-  height: 150px;
-  position: relative;
-  top: -80px;
-  right: 60px;
+  width: 100px;
+  height: 100px;
 }
 .subtext p {
   font-size: 24px;
